@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-xs-12 text-center">
+        <h2>Bienvenido a tu Cajero Davivienda</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+        <div class="row">
+            <div id="lcdScreen" class="col-xs-12 text-center">
+                Ingrese Un monto.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 text-center numero">7</div>
+            <div class="col-xs-2 text-center numero">8</div>
+            <div class="col-xs-2 text-center numero">9</div>
+            <div class="col-xs-1 text-center"></div>
+            <div id="btn-abonar" class="col-xs-4 text-center accion">Abonar</div>
+            <div class="col-xs-1 text-center"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 text-center numero">4</div>
+            <div class="col-xs-2 text-center numero">5</div>
+            <div class="col-xs-2 text-center numero">6</div>
+            <div class="col-xs-1 text-center"></div>
+            <div id="btn-retirar" class="col-xs-4 text-center accion">Retirar</div>
+            <div class="col-xs-1 text-center"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 text-center numero">1</div>
+            <div class="col-xs-2 text-center numero">2</div>
+            <div class="col-xs-2 text-center numero">3</div>
+            <div class="col-xs-1 text-center"></div>
+            <div id="btn-saldo" class="col-xs-4 text-center accion">Saldo</div>
+            <div class="col-xs-1 text-center"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 text-center numero">00</div>
+            <div class="col-xs-2 text-center numero">0</div>
+            <div class="col-xs-2 text-center numero">.</div>
+            <div class="col-xs-1 text-center"></div>
+            <div id="clearValueLCD" class="col-xs-4 text-center accion">Limpiar Valor</div>
+            <div class="col-xs-1 text-center"></div>
+        </div>
+        
+
+    </div>
+
+    <div class="col-xs-2"></div>
+</div>  
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/cajero.js"></script>
